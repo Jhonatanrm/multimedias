@@ -1,0 +1,107 @@
+[
+    {
+      "Brand": "OT-C01-Cliente no autoriza",
+      "code1": "Aplica cuando:<br>El cliente no autoriza la instalación de ninguno de los servicios.El cliente manisfiesta no haber solicitado nada.<br>Se incumple la hora o jornada de instalación y el cliente toma la determinación de no dejar instalar.<br>El cliente no permiten el ingreso del personal técnico al inmueble",
+      "code2": "1. Asignar el pendiente con la novedad presentada.<br>2. Solicitar a despacho el código de incompleto.<br>3. Si no puede asignar el pendiente, solicitarle a su despachador que lo asigne.<br>4. El técnico debe tomar foto a la fachada y adjuntarla en la tarea, en caso de no poderlo hacer por problemas del dispositivo u orden público debe dejar la descripción de la fachada.<br>5. Dejar \"\"\"\"CONSTANCIA DE VISITA\"\"\"\" (Para los casos en los que sean unidades residenciales, se debe dejar por escrito en la constancia BLOQUE - TORRE - APTO)"
+    },
+    {
+      "Brand": "OT-C02-Cliente ilocalizado",
+      "code1": "Aplica cuando:<br>No hay quien atienda la visita del técnico en la premisas del cliente y no se puede contactar el cliente en los telefonos  de contacto y direccion.",
+      "code2": "1. Asignar el pendiente con la novedad presentada.<br>2. Solicitar a despacho el código de incompleto.<br>3. Si no puede asignar el pendiente, solicitar apoyo a despacho.<br>4. Tomar foto a la fachada y adjuntarla en la tarea, en caso de no poderlo hacer por problemas del dispositivo u orden público debe dejar la descripción de la fachada.<br>5. Dejar \"\"CONSTANCIA DE VISITA\"\" (Para los casos en los que sean unidades residenciales, se debe dejar por escrito en la constancia BLOQUE - TORRE - APTO)"
+    },
+    {
+      "Brand": "OT-C04-Orden público",
+      "code1": "Aplica cuando:<br>El técnico no puede instalar un servicio por problemas de delincuencia en la  zona.<br>Se presente obstrucción de la movilidad en las vías (Fiestas, protestas, aglomeraciones, derrumbes, carreras ciclísticas).",
+      "code2": "1.  Visitar las premisas del cliente y si detecta que hay orden público comunicarse con su supervisor para la aprobación y asignación del pendiente.<br>2. Informar a despacho y solicitar el código de incompleto (Solo se le brindará este código cuando el despachador valide la información con el supervisor de terreno)."
+    },
+    {
+      "Brand": "OT-C05-Gestión fraudes instalaciones",
+      "code1": "Aplica cuando:<br>El técnico identifica que la infraestructura que se le asignó al pedido se encuentra copada por otro usuario en conexiones de dudosa procedencia.El usuario pide que la misma instalación se comparta con otros inmuebles.<br>Al momento de realizar la instalación informan no conocer el titular.<br>La orden llega en uso residencial pero el usuario desea la instalación para uso comercial",
+      "code2": "1. Asignar el pendiente.<br>2. Solicitar a despacho el código de incompleto.<br>3. Informar al cliente que se escalará el caso para una validación técnica."
+    },
+    {
+      "Brand": "OT-C06-Inconsistencia información",
+      "code1": "Aplica Cuando<br>-La información que viene en la orden de trabajo es diferente a lo encontrado en el terreno, tales como: Dirección errada, Uso del servicio diferente, Cédula mal digitada, error en los datos del cliente (Nombres y Apellidos)<br>-Los productos a instalar no concuerdan (agregar o eliminar equipos o productos) o no contienen las especificaciones técnicas (tecnología, extensiones análogas, Tipo Equipo)",
+      "code2": "1. Solicitar al despachador para que éste pueda enviar la orden a renumerar o actualizar el pedido al equipo  Brutal Forcé cuando se servicios o puntos nuevos  o peticiones.<br>2. Mientras se realiza la reconfiguración  o la actualización del pedido,  el técnico debe proceder a realizar las adecuaciones internas para la instalación.<br>3. En caso de que surja alguna novedad en cuanto a tarifas que implican la reconfiguración del nuevo pedido, el técnico debe informar al  despachador para que un agente de Brutal Forcé aclare las dudas al cliente; aplica en los casos en donde cambian las condiciones del valor ofrecido inicialmente en la oferta comercial.\""
+    },
+    {
+      "Brand": "OT-C10-Validar condición instalación",
+      "code1": "Aplica cuando:<br>Se detecta inconsistencias con la solicitud del servicio tales como: Varios pedidos para el mismo predio ya sea el mismo o diferente cliente.Ya se realizó la instalación en esta misma dirección o ambos pedidos están en proceso.<br>El cliente no cuenta con los equipos aptos para la instalación (ej: TV que no cuentan con entradas de audio y video o HDMI)no tiene PC o TV. <br>Problemas de improvisto que dejan sin señal el sector por ejemplo cuando un carro se lleva la red.<br>Pendiente por fluido electrico, riesgo electrico para poder instala",
+      "code2": "1. Asignar el pendiente de la novedad presentada.<br>2. Informar al despachador la inconsistencia que se dio en la premisa del cliente.<br>3. Solicitar el código de incompleto al despachador"
+    },
+    {
+      "Brand": "OT-C12-Reconfigurar motivo técnico",
+      "code1": "Aplica cuando:<br>El técnico llega a las premisas del cliente e identifica que la red con la que llega el pedido es diferente a la existente en el predio.<br>La instalación llega por la infraestructura asociada a productos existentes pero ésta no soporta el nuevo producto.<br>Con estas casuísticas se debe buscar otra opción para atender la solicitud del cliente P. ej: REDCO - GPON  en productos nuevos y separación de infraestructura para productos existentes según indique el instalador.",
+      "code2": "1. Informar al despachador que la orden, no es posible realizarla porque no es viable  por la tecnología en la que se asignó inicialmente o la tecnología del portafolio actual no soporta el nuevo producto y se debe modificar.<br>2. Consultar infraestructura cercana a su localización por el módulo de Infra de Click Mobile<br>3.Indicar y validar la nueva ruta de instalación que se debe asignar para el nuevo pedido al despachador.<br>  HFC indicar (NODO ó TAP)<br>  REDCO  indicar (ARMARIO ó CAJA)<br>  GPON indicar (HILO ó NAP)<br><br>4. Realizar las adecuaciones internas para la instalación, mientras el equipo de Brutal Forcé realiza la renumeración o actualización del pedido (SÓLO aplica cuando ya se hicieron las validaciones comerciales con el usuario y las certificaciones técnicas para la instalación). <br>5. En caso de que el usuario tenga alguna novedad en cuanto a tarifas que implican la reconfiguración del nuevo informar a su despachador para que deje las observaciones  de que se comuniquen  con éste por parte de Brutal Forcé y aclaren las dudas. (Aplica para los casos en los que la dirección está errada y cambia su estrato facturado o modificación a la oferta; aquí cambian las condiciones del valor ofrecido inicialmente)"
+    },
+    {
+      "Brand": "OT-C14-Orden del suscriptor",
+      "code1": "Aplica cuando:<br>El cliente desea postergar la cita de instalación por algun inconveniente personal.(ejempolo: Cliente va de salida)<br>Hay tubería obstruida imputable al cliente<br>Red interna no existe para la instalación imputable al cliente.Adecuaciones locativas (cuando se identifica que el predio no cuenta con el contador de energía para instalar el servicio) <br>Cuando el predio aun no se le ha entregado al usuario. <br>Casos donde solo se encuentre un menor de edad para recibir el personal técnico.",
+      "code2": "1 Asignar el pendiente y anexar las observaciones de la novedad.<br>2. Informar al despachador la novedad presentada. 3. Solicitar el código de incompleto al despachador. <br>4. Dejar \"\"CONSTANCIA DE VISITA\"\" (los casos en los que sean unidades residenciales, el técnico debe dejar por escrito en la constancia BLOQUE - TORRE - APTO al cual pertenece el inmueble del usuario)."
+    },
+    {
+      "Brand": "OT-C17-Autorización de Terceros",
+      "code1": "Aplica cuando:<br>El pedido a instalar no es posible gestionarlo porque el inmueble aún no ha sido entregado o se requiere autorización  de la administración para la  instalación. <br>Tubería en construcción( cuando depende de la constructora)Se requieren cruzar predios en la zona rural o urbana.",
+      "code2": "1. Asignar el pendiente correspondiente y la observación de la novedad presentada.<br>2. Solicitar al despachado el código de incompleto.<br>3. Dejar constancia de visita (los casos en los que sean unidades residenciales, el técnico debe dejar por escrito en la constancia BLOQUE - TORRE - APTO al cual pertenece el usuario de tal forma que este pueda comunicarse nuevamente a reprogramar la visita)."
+    },
+    {
+      "Brand": "OT-C19-Factores climáticos (OT-T09)",
+      "code1": "Aplica cuando:<br>No es posible instalar por factores climáticos, tales como lluvia.Cuando el técnico no llega donde el cliente por factores climaticos, sobre todo en poblaciones alejadas.<br>Desastres naturales ",
+      "code2": "1. Asignar el pendiente y la observación con la novedad presentada.<br>2. Solicitar a despacho el código de incompleto.<br>3 - Técnico ha realizado de forma parcial la instalación de los servicios, pero las condiciones climáticas cambian de forma inesperada, se debe asignar el pendiente.<br>4. Se le debe informar al cliente la situación presentada."
+    },
+    {
+      "Brand": "OT-C20-Pendiente Pago Anticipo",
+      "code1": "Aplica cuando: <br>La orden de instalación que lleva el técnico se encuentra marcada con pago anticipo y el cliente no cuenta con el dinero de los productos.",
+      "code2": "1. Asignar el pendiente.<br>2. Comunicarse con su despachador para reportar la novedad presentada y solicitar el código de incompleto.<br>3. Anexar las observaciones coherentes del porqué lo está asignando en este concepto.<br>NOTA: Solo se debe realizar la instalación cuando el usuario tenga el dinero completo, en este caso el técnico debe realizar el recibo de caja y posteriormente la instalación.\""
+    },
+    {
+      "Brand": "OT-T01-Red pendiente edif y urb (OT-T01)",
+      "code1": "Aplica cuando:<br>El  usuario debe hacer una adecuación en su red interna y la complejidad de ésta requiere del acompañamiento del área de Operación infraestructura (P ej: redes en propiedad horizontal, Centros comerciales, redes de propiedad vertical etc). ",
+      "code2": "1. Asignar el pendiente y agregar las observaciones.<br>2. Informarle al despachado la novedad presentada y solicitar el código de incompleto."
+    },
+    {
+      "Brand": "OT-T02-Gestion de Instalaciones (OT-T02)",
+      "code1": "Aplica cuando:<br>El técnico tiene en sus responsabilidadades atender alguna inconsistencia o inconveniente en el proceso de instalación:<br><br>Puentes en concentradores.<br>El técnico no cumple con la visita de instalación y por su alta capacidad operativa.<br>La instalación está GESTIONADA DE FORMA PARCIAL por ejemplo falta instalar cableado (En ejecución)<br>Se requiere apertura de TAPA SOLDADA y TECNOTAPA.",
+      "code2": "1. Asignar el pendiente y agregar las observaciones.<br>2.NO dejar los equipos en las premisas del cliente cuando la instalación esté de forma parcial, solo dejará contsruida la red interna del cliente.<br>3. Informar al despachador a cargo y solicitar el código de incompleto.<br>4. Informar al usuario la novedad presentada."
+    },
+    {
+      "Brand": "OT-T03-Posteria Madera (OT-T03)",
+      "code1": "Aplica cuando:<br>Falta poste de madera para poder realizar la instalación.",
+      "code2": "1 - Para estos casos en los que el técnico realiza la visita, pero  se encuentra que en el predio no tiene postería para poder realizar las debidas instalaciones del servicio, <br>2-  Debe asignar el pendiente, notificar la novedad presentada a su despachador.<br>3 - Posterior a ello premisas cliente de cada regional  exportará la información y enviará un revisor para constatar si lo que se indica por el técnico es real, en caso afirmativo se le informa al respectivo contrato para que puedan proceder con la instalación de dicho poste y ofrecer el servicio a estos clientes.<br>4- El técnico debe asignar el pendiente > OT-T03-Posteria Madera  y anexar las observaciones coherentes del porqué lo está asignando en este concepto.<br><br>Nota: El técnico deberá informar la distancia desde el punto más cercano de la red del usuario y cantidad de postes a instalar."
+    },
+    {
+      "Brand": "OT-T04-Red Externa (OT-T04)",
+      "code1": "Aplica Cuando:<br><br>El técnico no encuentra la red construida.<br>Se requiere de ampliación en la infraestructura para prestar el servicio ya que en campo ésta se encuentra ocupada.<br>-la caja está copada<br>-Se requiere rediseños de red.<br>-No hay pares Libres",
+      "code2": "1 - Para estos casos en los que el técnico identifica que el TAP se encuentra copado y se trata de un servicio por tecnología HFC, el técnico procede a instalar un splitter 2 vías en la boca del TAP de acuerdo al procedimiento que se tiene estipulado, teniendo en cuenta que debe ser autorizado por su supervisor.<br>2 - Para los casos en donde el técnico necesita realizar una validación de cobertura para la disponibilidad de la red (en los casos en que esté ocupada), deberá comunicarse con su despachador para que se realice la validación  respectiva de actualización, escalar a expansión o cancelar la orden. El técnico puede consultar infraestructura cercana a su localización por el módulo de Infra de Click Mobile. (Decirle a Claudia y Diana sobre esta capacitación)<br>3 - Si se trata de una servicio por tecnologÍa ADSL el técnico deberá asignar el pendiente respectivo con las observaciones pertinentes para que se efectúe por el área encargada de la ampliación.<br>4 - El técnico debe asignar el pendiente > OT-T04-Red Externa y anexar las observaciones coherentes del porqué lo está asignando en este concepto."
+    },
+    {
+      "Brand": "OT-T05-Mala Asignación (OT-T05)",
+      "code1": "Aplica cuando:<br>Se detecta que la infraestructura asignada o la red que se entrega en el pedido no corresponde con la requerida para la instalación del servicio o no hay cobertura.<br><br>Ejemplo:<br>El nodo no corresponde según la dirección.<br>El  tap, Armario, Strip, Par, Posición Física o caja asignada es muy lejana.Armario, Strip, Par o Posición Física.<br>La distancia supera el límite o está por fuera de la cobertura",
+      "code2": "Para estos casos en los que el técnico detecta que la infraestructura asignada al pedido no coincide con la que se encuentra físicamente, por cuestiones de mala asignación; éste  debe realizar el siguiente procedimiento:<br><br>1 - Comunicar la novedad a su despachador para que  pueda escalar el caso a través del formulario al grupo de Brutal Forcé quienes son los que se encargarán de realizar la renumeración, validación y asignación de la nueva infraestructura.<br>2 - El técnico debe ser responsable de notificarle a su despachador la información de la nueva ruta de instalación, es decir cuál es la infraestructura que le sirve para dar cumplimiento a la orden.<br>3 - El técnico debe ser responsable de poder hacer la gestión de instalación interna, mientras el pedido es renumerado nuevamente por el equipo de Brutal Forc<br><br>NOTA: Aplica para todas las transacciones de nuevos y peticiones."
+    },
+    {
+      "Brand": "OT-T07-Llegada de Equipos (OT-T07)",
+      "code1": "Aplica cuando:<br>Hay desabastecimiento de equipos en las Bodegas del contrato y éste se da porque no se realizó con  antelación requerida los trámites en las bodegas de TigoUne.",
+      "code2": "Para este caso se define una casuística puntual:<br>1 - Cuando el técnico llega con una orden de X cantidad de equipos para la instalación, pero posterior a ella el cliente requiere de otro como adicional, y en la bodega del contrato ya no hay disponibilidad en el inventario para la solicitud requerida por el usuario, se procede a dejar el pendiente mientras se da la solución.<br>2 - Si despacho detecta que realmente no hay abastecimiento de equipos por parte del contrato, se procede con la autorización para el técnico de poder asignar el pendiente de llegada de equipos.<br>3- El técnico debe asignar el pendiente > OT-T07-Llegada de Equipos y anexar las observaciones coherentes del porqué lo está asignando en este concepto."
+    },
+    {
+      "Brand": "OT-T10-Reparación de red externa (OT-T10)",
+      "code1": "Aplica cuando:<br>Existe problemas en la calidad de la red de acceso (Ej Par  Primario, secundario, Armario, Tarjetas en mal estado, parámetros en HFC) ",
+      "code2": "1 - Cuando el  técnico visita las premisas del cliente e identifica que la red no está en óptimas condiciones o se hurtaron parte de la red para la instalación de los servicios,  se procede a realizar la notificación a su despachador para que éste a su vez pueda brindarle la opción de poder asignar el pendiente que relaciona esta falencia que está de forma física.<br>2 - Antes de la asignación del pendiente el técnico deberá diligenciar las plantillas respectivas de acuerdo al producto y a la tecnología.<br>3- El técnico debe asignar el pendiente > OT-T10-Reparación de red externa y anexar las observaciones coherentes del porqué lo está asignando en este concepto."
+    },
+    {
+      "Brand": "OT-T15-Adquisición equipos",
+      "code1": "Aplica cuando:<br>El desabastecimiento de equipo es de la empresa y no propiamente del contratista",
+      "code2": "Para este caso se define una casuística puntual:<br>1 - Si el técnico identifica que existe desabastecimiento de equipos por parte de TigoUne, debe proceder con la asignación del  pendiente con las observaciones respectivas donde se aclare que la carencia de equipos es por parte de TigoUne mas no de la empresa contratista.<br>2 - El técnico debe asignar el pendiente > OT-T15-Adquisición equipos  y anexar las observaciones coherentes del porqué lo está asignando en este concepto."
+    },
+    {
+      "Brand": "OT-T17-Solución con proyecto (OT-T17)",
+      "code1": "Aplica cuando:<br>Un proyecto de ampliación ya se encuentra en ejecución (tiene SPR creado).<br>Nota: Después de cumplido el proyecto, el pedido es aprobado por asignaciones para proceder con la respectiva instalación",
+      "code2": "Para estos casos el técnico ha realizado la visita al inmueble para la instalación, pero identifica que aún el proyecto que se tiene para la ampliación de red no ha finalizado, este debe reportar la novedad con el despachador para que puedan aplicar el pendiente a través del código de INCOMPLETO, de esta forma el pedido quedará en proceso nuevamente para que sea aprobado."
+    },
+    {
+      "Brand": "OT-T19-Plataforma caida",
+      "code1": "Se utiliza cuando al momento de realizar la instalación alguna de las plataformas (LDPA4, SERIP, CISCO, VERIMATRIX, CUBIWARE, TIVO u otras) se encuentran caidas y los técnicos no pueden entregar el servicio a satisfcción del cliente.<br>Nota: El técnico no logra realizar ninguna gestión en la premisa del cliente.",
+      "code2": "Para estos casos el técnico debe realizar las respectivas validaciones con el despachador de poder verificar que se pueda dar cumplimiento a las ordenes lógicas por medio de contingencia, de no ser posible porque realmente las plataformas están caídas el técnico tendrá la autorización de poder asignar el pendiente técnico hasta que se le pueda dar cumplimiento a la solicitud en plataforma como corresponde."
+    }
+   ]

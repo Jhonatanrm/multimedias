@@ -1,0 +1,213 @@
+div#Plan p label span.Trio:before {
+    content: url("../img/oneelite.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+div#Empresa p label input {
+    display: inline-block;
+    text-align: center;
+}
+
+div#Empresa p span {
+    display: block;
+    width: 100%;
+    line-height: 18px;
+    text-align: center;
+}
+
+table#TablaResultado td {
+    padding-left: 4%;
+}
+
+table#TablaResultado2 td {
+    padding-left: 3%;
+}
+
+table#Tablatotal td {
+    padding-left: 3%;
+}
+
+#TablaResultadoServicio td {
+    padding-left: 3%;
+}
+
+#TablaServicio td {
+    padding-left: 4%;
+}
+
+div#Empresa p {
+    width: 25%;
+    float: left;
+    margin: 10px;
+    height: 100px;
+}
+
+.selecciones h3 {
+    text-align: center;
+    /* background: #00347c73; */
+    font-size: 26px;
+    padding: 10px;
+    color: #00347c;
+    border-bottom: solid 1px;
+    width: 60%;
+    margin: 10px auto 22px auto;
+}
+
+.selecciones {
+    border: solid 1px;
+    padding: 0px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div#Empresa p label span:before {
+    content: url("../img/empresa.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+}
+
+td {
+    width: 14%;
+    font-size: 12px;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+table#TablaResultado2 {
+    border-bottom: solid 1px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #00347c;
+}
+
+table#TablaResultadoServicio {
+    font-weight: bold;
+    color: #00347c;
+}
+
+div#Plan p label span.Duo:before {
+    content: url("../img/esencial.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+div#Plan p label span.Individual:before {
+    content: url("../img/individual.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+div#Tecnologia p label span:before {
+    content: url("../img/deco.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+div#Plan p {
+    width: 33%;
+    float: left;
+    text-align: center;
+    background: #fff;
+}
+
+div#Tecnologia p {
+    width: 33%;
+    float: left;
+    text-align: center;
+    background: #fff;
+}
+
+[type="radio"]:checked+span {
+    color: #00377b
+}
+
+[type="radio"].category:checked+span {
+    background: #00347c;
+    color: #fff !important;
+}
+
+[type="radio"].Empresa:checked+span {
+    color: #00377b;
+    width: 100% !important;
+    height: 100% !important;
+    font-weight: bold !important;
+    border-bottom: solid 2px !important;
+}
+
+[type="radio"].Tecnologia:checked+span {
+    color: #00377b;
+    width: 100% !important;
+    height: 100% !important;
+    font-weight: bold !important;
+    border-bottom: solid 2px !important;
+}
+
+[type="radio"].Plan:checked+span {
+    color: #00377b;
+    width: 100% !important;
+    height: 100% !important;
+    font-weight: bold !important;
+    border-bottom: solid 2px !important;
+}
+
+div#Tipo [type="radio"]:checked+span {
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    border-bottom: solid 2px;
+}
+
+@media (max-width: 600px) {
+    div#Empresa p label span:before {
+        content: url("../img/empresam.png");
+    }
+    div#Tecnologia p label span:before {
+        content: url("../img/wifim.png");
+        margin-bottom: 10px;
+    }
+    div#Tecnologia {
+        margin-top: 8px
+    }
+    [type="radio"].Plan:checked+span {
+        color: #00377b;
+        width: 100% !important;
+        height: 100% !important;
+        font-weight: bold !important;
+        border-bottom: solid 2px !important;
+    }
+    .selecciones h3 {
+        font-size: 17px;
+    }
+    .emp_tecno {
+        height: 80px;
+    }
+    div#Empresa p {
+        height: 80px;
+        width: 33%;
+    }
+    div#Tecnologia p {
+        height: 87px;
+    }
+    button.btn.waves-effect.waves-light {
+        margin-top: 18px;
+        margin-bottom: 10px
+    }
+    div#Tipo p {
+        width: 18%;
+    }
+    body {
+        overflow-x: hidden !important
+    }
+}

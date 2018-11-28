@@ -1,0 +1,659 @@
+[{
+        "servicio": "FOX Premium",
+        "tiposervicio": "Television",
+        "detalleservicio": "Paquete Premium",
+        "mensualidad": 30161,
+        "Descuento": 15081
+    },
+    {
+        "servicio": "HBO/MAX",
+        "tiposervicio": "Television",
+        "detalleservicio": "Paquete Premium",
+        "mensualidad": 30161,
+        "Descuento": 15081
+    },
+    {
+        "servicio": "Paquete Adultos HotPack",
+        "tiposervicio": "Television",
+        "detalleservicio": "Paquete Premium",
+        "mensualidad": 30161,
+        "Descuento": 15081
+    },
+    {
+        "servicio": "HBO Go",
+        "tiposervicio": "Television",
+        "detalleservicio": "Paquete Premium",
+        "mensualidad": 30161,
+        "Descuento": 15081
+    },
+    {
+        "servicio": "Venus",
+        "tiposervicio": "Television",
+        "detalleservicio": "Paquete Premium",
+        "mensualidad": 15389,
+        "Descuento": null
+    },
+    {
+        "servicio": "Crackle Sony",
+        "tiposervicio": "Television",
+        "detalleservicio": "Paquete Premium",
+        "mensualidad": 10900,
+        "Descuento": 5450
+    },
+    {
+        "servicio": "Tivo Mini",
+        "tiposervicio": "Television",
+        "detalleservicio": "Tivo Mini",
+        "mensualidad": 15000,
+        "Descuento": null
+    },
+    {
+        "servicio": "Tivo Lite DVR",
+        "tiposervicio": "Television",
+        "detalleservicio": "Tivo Lite DVR",
+        "mensualidad": 20000,
+        "Descuento": null
+    },
+    {
+        "servicio": "Tivo Lite Zapper",
+        "tiposervicio": "Television",
+        "detalleservicio": "Tivo Lite Zapper",
+        "mensualidad": 15000,
+        "Descuento": null
+    },
+    {
+        "servicio": "Decodificador HD adicional",
+        "tiposervicio": "Television",
+        "detalleservicio": "Decodificador HD adicional",
+        "mensualidad": 10259,
+        "Descuento": null
+    },
+    {
+        "servicio": "Extensión/Decodificador solicitado con posterioridad a la instalación del servicio en cualquiera de los planes (precio por cada extensión) (*)",
+        "tiposervicio": "Television",
+        "detalleservicio": "Extensión/decodificador",
+        "mensualidad": 47164,
+        "Descuento": null
+    },
+    {
+        "servicio": "Cambio de cliente",
+        "tiposervicio": "Television",
+        "detalleservicio": "Cambio de cliente",
+        "mensualidad": 8217,
+        "Descuento": null
+    },
+    {
+        "servicio": "Conversor RF ",
+        "tiposervicio": "Television",
+        "detalleservicio": "Conversor RF ",
+        "mensualidad": 39717,
+        "Descuento": null
+    },
+    {
+        "servicio": "Cesión de contrato",
+        "tiposervicio": "Television",
+        "detalleservicio": "Cesión de contrato",
+        "mensualidad": 0,
+        "Descuento": null
+    },
+    {
+        "servicio": "Traslado del servicio",
+        "tiposervicio": "Television",
+        "detalleservicio": "Traslado del servicio",
+        "mensualidad": 0,
+        "Descuento": null
+    },
+    {
+        "servicio": "Extensión adicional",
+        "tiposervicio": "Television",
+        "detalleservicio": "Extensiones realizadas en el momento de la instalación o traslado en cualquiera de los planes de Televisión",
+        "mensualidad": 0,
+        "Descuento": null
+    },
+    {
+        "servicio": "Cambios entre los planes de Televisión ",
+        "tiposervicio": "Television",
+        "detalleservicio": "Cambios entre los planes de Televisión ",
+        "mensualidad": 0,
+        "Descuento": null
+    },
+    {
+        "servicio": "Cambio entre los de Decodificador Digital a Decodificador de Alta Definición **",
+        "tiposervicio": "Television",
+        "detalleservicio": "Cambio entre los de Decodificador Digital a Decodificador de Alta Definición **",
+        "mensualidad": 0,
+        "Descuento": null
+    },
+    {
+        "servicio": "Cambio de decodificador de Alta Definición a decodificador digital **",
+        "tiposervicio": "Television",
+        "detalleservicio": "Cambio de decodificador de Alta Definición a decodificador digital **",
+        "mensualidad": 0,
+        "Descuento": null
+    },
+    {
+        "servicio": "Reconexión del servicio ",
+        "tiposervicio": "Television",
+        "detalleservicio": "Reconexión del servicio ",
+        "mensualidad": 21290,
+        "Descuento": null
+    },
+    {
+        "servicio": "Movimiento de redes internas",
+        "tiposervicio": "Internet",
+        "detalleservicio": "Movimiento de redes internas",
+        "mensualidad": 47164,
+        "Descuento": null
+    },
+    {
+        "servicio": "Segunda conexión a internet ",
+        "tiposervicio": "Internet",
+        "detalleservicio": "Estrato 1-3",
+        "mensualidad": 21900,
+        "Descuento": null
+    },
+    {
+        "servicio": "Segunda conexión a internet ",
+        "tiposervicio": "Internet",
+        "detalleservicio": "Estrato 4-6",
+        "mensualidad": 26061,
+        "Descuento": null
+    },
+    {
+        "servicio": "IP Fija ",
+        "tiposervicio": "Internet",
+        "detalleservicio": "IP Fija ",
+        "mensualidad": 11900,
+        "Descuento": null
+    },
+    {
+        "servicio": "Dirección IP sin NAT",
+        "tiposervicio": "Internet",
+        "detalleservicio": "Dirección IP sin NAT",
+        "mensualidad": 5129,
+        "Descuento": null
+    },
+    {
+        "servicio": "Reconexión del servicio ",
+        "tiposervicio": "Internet",
+        "detalleservicio": "Reconexión del servicio ",
+        "mensualidad": 21290,
+        "Descuento": null
+    },
+    {
+        "servicio": "Llamada en espera",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Llamada en espera",
+        "mensualidad": 2204,
+        "Descuento": null
+    },
+    {
+        "servicio": "Transferencia de llamadas",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Transferencia de llamadas",
+        "mensualidad": 2204,
+        "Descuento": null
+    },
+    {
+        "servicio": "Conversación entre tres",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Conversación entre tres",
+        "mensualidad": 2204,
+        "Descuento": null
+    },
+    {
+        "servicio": "Marcación abreviada",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Marcación abreviada",
+        "mensualidad": 2204,
+        "Descuento": null
+    },
+    {
+        "servicio": "Programador",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Programador",
+        "mensualidad": 2204,
+        "Descuento": null
+    },
+    {
+        "servicio": "Conexión sin marcación",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Conexión sin marcación",
+        "mensualidad": 2204,
+        "Descuento": null
+    },
+    {
+        "servicio": "Identificador  de llamadas numérico",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Identificador  de llamadas numérico",
+        "mensualidad": 2204,
+        "Descuento": null
+    },
+    {
+        "servicio": "Transferencia selectiva de llamada",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Transferencia selectiva de llamada",
+        "mensualidad": 2204,
+        "Descuento": null
+    },
+    {
+        "servicio": "Aceptación de llamadas",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Aceptación de llamadas",
+        "mensualidad": 2204,
+        "Descuento": null
+    },
+    {
+        "servicio": "Repique distintivo",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Repique distintivo",
+        "mensualidad": 2204,
+        "Descuento": null
+    },
+    {
+        "servicio": "Rechazo de llamadas",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Rechazo de llamadas",
+        "mensualidad": 2204,
+        "Descuento": null
+    },
+    {
+        "servicio": "Identificador  de llamadas por pantalla",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Identificador  de llamadas por pantalla",
+        "mensualidad": 7716,
+        "Descuento": null
+    },
+    {
+        "servicio": "Cambio de número",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Cambio de número",
+        "mensualidad": 25245,
+        "Descuento": null
+    },
+    {
+        "servicio": "Suspensión del servicio",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Suspensión del servicio",
+        "mensualidad": 12722,
+        "Descuento": null
+    },
+    {
+        "servicio": "Citofonía Virtual",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Citofonía Virtual",
+        "mensualidad": 16125,
+        "Descuento": null
+    },
+    {
+        "servicio": "Reconexión del servicio ",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Reconexión del servicio ",
+        "mensualidad": 21290,
+        "Descuento": null
+    },
+    {
+        "servicio": "Suscripción zona urbana",
+        "tiposervicio": " Televisión satelital ",
+        "detalleservicio": "Suscripción zona urbana",
+        "mensualidad": 60000,
+        "Descuento": null
+    },
+    {
+        "servicio": "Suscripción zona rural",
+        "tiposervicio": " Televisión satelital ",
+        "detalleservicio": "Suscripción zona rural",
+        "mensualidad": 100000,
+        "Descuento": null
+    },
+    {
+        "servicio": "Suscripción zona extra rural",
+        "tiposervicio": " Televisión satelital ",
+        "detalleservicio": "Suscripción zona extra rural",
+        "mensualidad": 150000,
+        "Descuento": null
+    },
+    {
+        "servicio": "Instalación",
+        "tiposervicio": " Televisión satelital ",
+        "detalleservicio": "Instalación (zona urbana, rural y extrarural)",
+        "mensualidad": 174397,
+        "Descuento": null
+    },
+    {
+        "servicio": "Visita posterior a la instalación para Adición Deco HD Zona Urbana",
+        "tiposervicio": " Televisión satelital ",
+        "detalleservicio": "Visita posterior a la instalación para Adición Deco HD Zona Urbana",
+        "mensualidad": 48149,
+        "Descuento": null
+    },
+    {
+        "servicio": "Visita posterior a la instalación para Adición Deco HD Zona Rural",
+        "tiposervicio": " Televisión satelital ",
+        "detalleservicio": "Visita posterior a la instalación para Adición Deco HD Zona Rural",
+        "mensualidad": 101647,
+        "Descuento": null
+    },
+    {
+        "servicio": "Visita posterior a la instalación para Adición Deco HD Zona Extra Rural",
+        "tiposervicio": " Televisión satelital ",
+        "detalleservicio": "Visita posterior a la instalación para Adición Deco HD Zona Extra Rural",
+        "mensualidad": 155146,
+        "Descuento": null
+    },
+    {
+        "servicio": "Decodificador adicional",
+        "tiposervicio": " Televisión satelital ",
+        "detalleservicio": "Decodificador HD adicional",
+        "mensualidad": 10499,
+        "Descuento": null
+    },
+    {
+        "servicio": "Movimiento de redes internas zona Urbana",
+        "tiposervicio": " Televisión satelital ",
+        "detalleservicio": "Movimiento de redes internas zona Urbana",
+        "mensualidad": 48149,
+        "Descuento": null
+    },
+    {
+        "servicio": "Movimiento de redes internas zona Rural",
+        "tiposervicio": " Televisión satelital ",
+        "detalleservicio": "Movimiento de redes internas zona Rural",
+        "mensualidad": 101647,
+        "Descuento": null
+    },
+    {
+        "servicio": "Movimiento de redes internas zona extra Rural",
+        "tiposervicio": " Televisión satelital ",
+        "detalleservicio": "Movimiento de redes internas zona extra Rural",
+        "mensualidad": 155146,
+        "Descuento": null
+    },
+    {
+        "servicio": "Reconexión del servicio ",
+        "tiposervicio": " Televisión satelital ",
+        "detalleservicio": "Reconexión del servicio ",
+        "mensualidad": 21290,
+        "Descuento": null
+    },
+    {
+        "servicio": "Cambios entre los planes de televisión",
+        "tiposervicio": " Televisión satelital ",
+        "detalleservicio": "Cambios entre los planes de televisión",
+        "mensualidad": 0,
+        "Descuento": null
+    },
+    {
+        "servicio": "Traslado ",
+        "tiposervicio": " Televisión satelital ",
+        "detalleservicio": "Traslado (zona urbana, rural y extrarural)",
+        "mensualidad": 0,
+        "Descuento": null
+    },
+    {
+        "servicio": "Play Boy",
+        "tiposervicio": "Television",
+        "detalleservicio": "Son tarifas de los servicios adicionales de EDATEL ",
+        "mensualidad": 15389,
+        "Descuento": null
+    },
+    {
+        "servicio": "Decodificador HD adicional",
+        "tiposervicio": "Television",
+        "detalleservicio": "",
+        "mensualidad": 10259,
+        "Descuento": 0
+    },
+    {
+        "servicio": "Decodificador DVR adicional",
+        "tiposervicio": "Television",
+        "detalleservicio": "",
+        "mensualidad": 15389,
+        "Descuento": 0
+    },
+    {
+        "servicio": "Servicio Grabación",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Servicio Grabación",
+        "mensualidad": 4165,
+        "Descuento": null
+    },
+    {
+        "servicio": "Paquete Servicios Especiales ",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Paquete Servicios Especiales ",
+        "mensualidad": 7936,
+        "Descuento": null
+    },
+    {
+        "servicio": "Servicio Grabación de Voz ELITE",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Servicio Grabación de Voz ELITE",
+        "mensualidad": 5950,
+        "Descuento": null
+    },
+    {
+        "servicio": "Paquetes promocionales 1",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Paquetes promocionales 1",
+        "mensualidad": 2204,
+        "Descuento": null
+    },
+    {
+        "servicio": "Paquetes promocionales 2",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Paquetes promocionales 2",
+        "mensualidad": 3527,
+        "Descuento": null
+    },
+    {
+        "servicio": "Paquetes promocionales 3",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Paquetes promocionales 3",
+        "mensualidad": 4961,
+        "Descuento": null
+    },
+    {
+        "servicio": "Paquetes promocionales 4",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Paquetes promocionales 4",
+        "mensualidad": 6173,
+        "Descuento": null
+    },
+    {
+        "servicio": "Paquetes promocionales 5",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Paquetes promocionales 5",
+        "mensualidad": 7167,
+        "Descuento": null
+    },
+    {
+        "servicio": "Paquetes promocionales 6 o mas ",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Paquetes promocionales 6 o mas ",
+        "mensualidad": 7936,
+        "Descuento": null
+    },
+    {
+        "servicio": "Telebuzón",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Telebuzón",
+        "mensualidad": 1838,
+        "Descuento": null
+    },
+    {
+        "servicio": "Llamada al 113",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Llamada al 113",
+        "mensualidad": 4879,
+        "Descuento": null
+    },
+    {
+        "servicio": "Llamada en espera elite",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Llamada en espera elite",
+        "mensualidad": 3081,
+        "Descuento": null
+    },
+    {
+        "servicio": "Transferencia de llamadas elite",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Transferencia de llamadas elite",
+        "mensualidad": 3081,
+        "Descuento": null
+    },
+    {
+        "servicio": "Conversación entre tres elite",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Conversación entre tres elite",
+        "mensualidad": 3081,
+        "Descuento": null
+    },
+    {
+        "servicio": "Marcación abreviada elite",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Marcación abreviada elite",
+        "mensualidad": 3081,
+        "Descuento": null
+    },
+    {
+        "servicio": "Programador elite",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Programador elite",
+        "mensualidad": 3081,
+        "Descuento": null
+    },
+    {
+        "servicio": "Conexión sin marcación elite",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Conexión sin marcación elite",
+        "mensualidad": 3081,
+        "Descuento": null
+    },
+    {
+        "servicio": "Identificador  de llamadas numérico elite",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Identificador  de llamadas numérico elite",
+        "mensualidad": 3081,
+        "Descuento": null
+    },
+    {
+        "servicio": "Repique distintivo elite",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Repique distintivo elite",
+        "mensualidad": 3081,
+        "Descuento": null
+    },
+    {
+        "servicio": "Telefono publico Local",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Telefono publico Local",
+        "mensualidad": 100,
+        "Descuento": null
+    },
+    {
+        "servicio": "Telefono publico a Local Extendida Antioquia (EDATEL)",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Telefono publico a Local Extendida Antioquia (EDATEL)",
+        "mensualidad": 100,
+        "Descuento": null
+    },
+    {
+        "servicio": "Telefono publico a Larga Distancia Nacional (Cualquier Destino)",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Telefono publico a Larga Distancia Nacional (Cualquier Destino)",
+        "mensualidad": 100,
+        "Descuento": null
+    },
+    {
+        "servicio": "Telefono publico a Móviles (Movistar - Comcel - Tigo)",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Telefono publico a Móviles (Movistar - Comcel - Tigo)",
+        "mensualidad": 100,
+        "Descuento": null
+    },
+    {
+        "servicio": "Telefono publico a SMS a Celular (Movistar - Comcel - Tigo)",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Telefono publico a SMS a Celular (Movistar - Comcel - Tigo)",
+        "mensualidad": 200,
+        "Descuento": null
+    },
+    {
+        "servicio": "Telefono publico a Correo Electrónico (e-mail)",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Telefono publico a Correo Electrónico (e-mail)",
+        "mensualidad": 200,
+        "Descuento": null
+    },
+    {
+        "servicio": "Telefono publico a Avantel",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Telefono publico a Avantel",
+        "mensualidad": 150,
+        "Descuento": null
+    },
+    {
+        "servicio": "Telefono publico a Norte América",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Telefono publico a Norte América",
+        "mensualidad": 200,
+        "Descuento": null
+    },
+    {
+        "servicio": "Telefono publico a México (Destinos fijos y móvil)",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Telefono publico a México (Destinos fijos y móvil)",
+        "mensualidad": 300,
+        "Descuento": null
+    },
+    {
+        "servicio": "Telefono publico a Países Seleccionados (Destinos Fijos) internacionales",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Telefono publico a Países Seleccionados (Destinos Fijos) internacionales",
+        "mensualidad": 300,
+        "Descuento": null
+    },
+    {
+        "servicio": "Telefono publico  a Países Seleccionados (Destinos móviles) internacionales",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Telefono publico  a Países Seleccionados (Destinos móviles) internacionales",
+        "mensualidad": 800,
+        "Descuento": null
+    },
+    {
+        "servicio": "Telefono publico a Resto del mundo internacional ",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Telefono publico a Resto del mundo internacional ",
+        "mensualidad": 1100,
+        "Descuento": null
+    },
+    {
+        "servicio": "cambio de clase ",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "cambio de clase ",
+        "mensualidad": 7878,
+        "Descuento": null
+    },
+    {
+        "servicio": "Cambio de cliente",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Cambio de cliente",
+        "mensualidad": 7878,
+        "Descuento": null
+    },
+    {
+        "servicio": "Minuto Moviles Tigo",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Minuto Moviles Tigo",
+        "mensualidad": 91.1,
+        "Descuento": null
+    },
+    {
+        "servicio": "Minuto Moviles Diferente a Tigo",
+        "tiposervicio": "Telefonía",
+        "detalleservicio": "Minuto Moviles Diferente a Tigo",
+        "mensualidad": 92.1,
+        "Descuento": null
+    }
+]

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plan 0es3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="input-field col s12 m10 l10 offset-l1">
+            <select class="icons" id="aplicaciones"></select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="bancos"><img src="img/bancolombia.png" alt=""><img src="img/bbogota.png" alt=""><img src="img/davivienda.png" alt=""> <p>*Simulador en Banco de Bogota con cuotas sugeridas a 12, 18, 24. <br>Recuerda que se puede a cualquier Cuota</p></div>
+        <div id="imagen_celular" class="col s12 m4 l4"></div>
+        <div class="col s12 m8 l8">
+            <table>
+                <thead>
+                    <th>12 Meses</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><i class="material-icons">attach_money</i> Precio Celular</td>
+                        <td><i class="material-icons">credit_card</i> Precio Tarjeta</td>
+                        <td><i class="material-icons">money_off</i> Cuota Tarjeta</td>
+                        <td><i class="material-icons">money_off</i> Cuota 0es3</td>
+                        <td><i class="material-icons">local_play</i> Ahorro 0es3</td>
+                    </tr>
+                    <tr>
+                        <td id="preciocel"></td>
+                        <td id="ptarjeta"></td>
+                        <td id="ctarjeta"></td>
+                        <td id="ctarjetaes"></td>
+                        <td id="ahorro"></td>
+                    </tr>                
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <th>18 Meses</th>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td><i class="material-icons">attach_money</i> Precio 0es3</td>
+                            <td><i class="material-icons">credit_card</i> Precio Tarjeta</td>
+                            <td><i class="material-icons">money_off</i> Cuota Tarjeta</td>
+                            <td><i class="material-icons">money_off</i> Cuota 0es3</td>
+                            <td><i class="material-icons">local_play</i> Ahorro 0es3</td>
+                        </tr>
+                        <tr>
+                            <td id="preciocel18"></td>
+                            <td id="ptarjeta18"></td>
+                            <td id="ctarjeta18"></td>
+                            <td id="ctarjeta18es"></td>
+                            <td id="ahorro18"></td>
+                        </tr>                
+                    </tbody>
+            </table>
+            <table>
+                <thead>
+                    <th>24 Meses</th>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td><i class="material-icons">attach_money</i> Precio 0es3</td>
+                            <td><i class="material-icons">credit_card</i> Precio Tarjeta</td>
+                            <td><i class="material-icons">money_off</i> Cuota Tarjeta</td>
+                            <td><i class="material-icons">money_off</i> Cuota 0es3</td>
+                            <td><i class="material-icons">local_play</i> Ahorro 0es3</td>
+                        </tr>
+                        <tr>
+                            <td id="preciocel24"></td>
+                            <td id="ptarjeta24"></td>
+                            <td id="ctarjeta24"></td>
+                            <td id="ctarjeta24es"></td>
+                            <td id="ahorro24"></td>
+                        </tr>                
+                    </tbody>
+            </table>
+
+            <!--<h3 style="
+            text-align:  center;
+            border-bottom:  solid 2px;
+            font-size:  23px;
+            padding-bottom:  10px;
+        ">Pago Opcional</h3>
+
+            <table class="contados">
+                <tbody>
+                    <thead>
+
+                            <td><strong>Escenario 1</strong></td>
+                            <td></td>
+                            <td><strong>Escenario 2</strong></td>
+                            <td></td>
+                            <td><strong>Escenario 3</strong></td>
+                            <td></td>
+
+                    </thead>
+                        <tr>
+                            <td><i class="material-icons">attach_money</i> Pago contado:</td>
+                            <td id="contado1"></td>
+                            <td><i class="material-icons">attach_money</i> Pago contado:</td>
+                            <td id="contado2"></td>
+                            <td><i class="material-icons">attach_money</i> Pago contado:</td>
+                            <td id="contado3"></td>
+                        </tr>
+                        <tr>
+                            <td><i class="material-icons">credit_card</i> Pago 0es3:</td>
+                            <td id="0es31"></td>
+                            <td><i class="material-icons">credit_card</i> Pago 0es3:</td>
+                            <td id="0es32"></td>
+                            <td><i class="material-icons">credit_card</i> Pago 0es3:</td>
+                            <td id="0es33"></td>
+                        </tr>
+                        <tr>
+                                <td><i class="material-icons">attach_money</i> Credito a 12:</td>
+                                <td id="creditoa121"></td>
+    
+                                <td><i class="material-icons">attach_money</i> Credito a 12:</td>
+                                <td id="creditoa122"></td>
+    
+                                <td><i class="material-icons">attach_money</i> Credito a 12:</td>
+                                <td id="creditoa123"></td>
+                        </tr>
+                        <tr>
+                                <td><i class="material-icons">attach_money</i> Credito a 18:</td>
+                                <td id="creditoa181"></td>
+    
+                                <td><i class="material-icons">attach_money</i> Credito a 18:</td>
+                                <td id="creditoa182"></td>
+    
+                                <td><i class="material-icons">attach_money</i> Credito a 18:</td>
+                                <td id="creditoa183"></td>
+                        </tr>
+                        <tr>
+                                <td><i class="material-icons">attach_money</i> Credito a 24:</td>
+                                <td id="creditoa241"></td>
+    
+                                <td><i class="material-icons">attach_money</i> Credito a 24:</td>
+                                <td id="creditoa242"></td>
+    
+                                <td><i class="material-icons">attach_money</i> Credito a 24:</td>
+                                <td id="creditoa243"></td>
+                        </tr>
+                    </tbody>
+            </table>-->
+        </div>
+    </div>
+    
+</div>
+
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

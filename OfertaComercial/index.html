@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oferta Comercial Hogares</title>
+
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/materialize.css">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+                <form id="filtros">
+                    <div class="row" style="border-bottom: solid 2px; margin-top: 40px">
+                        <div class="col s12 m12 l6" style="border-right: solid 2px">
+                            <div class="row emp_tecno">
+                                <div class="col s5 m5 l5" id="Empresa"></div>
+                                <div class="col s7 m7 l7" id="Tecnologia"></div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l6">
+                            <div class="row">
+                                <div class="col s12 m12 l12">
+                                    <select id="Region">
+                                        <option value="" disabled selected>Selecciona Región</option>
+                                    </select>
+                                </div>
+                                <div class="col s12 m12 l12">
+                                    <div class="col s12 m12 l12" id="Categoria"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col s12 m8 l8" id="Tipo"></div>
+                        <div class="col s12 m4 l4">
+                            <select id="Plan">
+                                <option value="" disabled selected>Selecciona Plan</option>
+                            </select>
+                            <button class="nuevo" onclick="limpiar()">Cotizar de Nuevo</button>
+                        </div>
+                    </div>
+                </form>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>
+                            <i class="material-icons">add_to_queue</i> Plan</th>
+                        <th id="tabla_plan"></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><i class="material-icons">hd</i> Canales HD</td>
+                        <td id="tabla_hd"></td>
+                    </tr>
+                    <tr>
+                        <td><i class="material-icons">video_label</i> Canales SD</td>
+                        <td id="tabla_sd"></td>
+                    </tr>
+                    <tr>
+                        <td><i class="material-icons">play_arrow</i> Canales Audio</td>
+                        <td id="tabla_audio"></td>
+                    </tr>
+                    <tr>
+                        <td><i class="material-icons">network_wifi</i> Velocidad</td>
+                        <td id="tabla_velicodad"></td>
+                    </tr>
+
+                    <tr>
+                        <td><i class="material-icons">attach_money</i> Estrato 1-2</td>
+                        <td id="tabla_est12"></td>
+                    </tr>
+                    <tr>
+                        <td><i class="material-icons">attach_money</i> Estrato 3-4</td>
+                        <td id="tabla_est34"></td>
+                    </tr>
+                    <tr>
+                        <td><i class="material-icons">attach_money</i> Estrato 5-6</td>
+                        <td id="tabla_est56"></td>
+                    </tr>
+
+                    <tr>
+                        <td><i class="material-icons">dashboard</i> Apps Incluidas</td>
+                        <td id="tabla_apps"></td>
+                    </tr>
+
+                    <tr>
+                        <td><i class="material-icons">call</i> Telefonia</td>
+                        <td id="tabla_tele"></td>
+                    </tr>
+
+                    <tr>
+                        <td><i class="material-icons">error_outline</i> Observaciones</td>
+                        <td id="tabla_obser"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>

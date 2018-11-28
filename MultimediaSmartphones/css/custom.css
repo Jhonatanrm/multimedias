@@ -1,0 +1,270 @@
+div#imagen img {
+    width: 70%;
+}
+
+.col img{width: 100%;}
+
+ul.pagination li {
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul.pagination li.active {
+    background: #00377b
+}
+
+ul.pagination {
+    text-align: center;
+}
+
+.col.m6 h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #00377b;
+    text-align: left;
+    margin-bottom: -15px;
+}
+
+.col.m6 h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #00377b;
+    margin-top: 15px;
+}
+
+h3.title_int i {
+    margin-top: -6px;
+    margin-right: 3px;
+}
+
+th {
+    text-align: center !important
+}
+
+div#imagen {
+    text-align: center
+}
+
+li.item_cel {
+    width: 22%;
+    float: left;
+    text-align: center;
+    list-style: none;
+    border: solid 1px #00377b;
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+    display: grid;
+}
+
+li.item_cel img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#celulares .item_cel h4 {
+    margin-bottom: -8px;
+}
+
+#celulares .item_cel a {
+    margin-top: 10px;
+}
+
+.item_cel h3 {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 17px;
+    color: #757575;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+.item_cel h4 {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 21px;
+    color: #00377b;
+    margin: 0px 0px -20px 0px;
+}
+
+.item_cel a {
+    background: #00377b;
+    border-radius: 20px;
+    width: 70%;
+    margin: -10px auto 0 auto;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.item_cel a:hover {
+    background: #757575;
+}
+
+.product-carousel {
+    height: 600px;
+}
+
+.product-carousel .thumbnails {
+    top: -90px;
+}
+
+div#destacados h2 {
+    font-family: 'Roboto', sans-serif !important;
+    text-align: center;
+    font-size: 30px;
+    /* margin-bottom: 70px; */
+    border-bottom: solid 2px #00377b;
+    padding-bottom: 20px;
+    width: 60%;
+    margin: 0 auto 30px auto;
+    color: #676767;
+}
+
+div#destacados {
+    margin: 50px 0px 30px 0px;
+    border-bottom: solid 2px #00377b;
+    padding-bottom: 50px;
+}
+
+.lSSlideOuter .lightSlider,
+.lSSlideOuter .lSPager {
+    height: 525px;
+}
+
+p.precios {
+    text-align: right !important;
+    margin-bottom: -13px;
+}
+
+div#contenedormodal h3 {
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+    font-size: 32px;
+}
+
+.col.m4 h3.title_int {
+    font-size: 10px !important;
+}
+
+.line {
+    border-bottom: solid 1px #00377b;
+    margin-top: 20px;
+}
+
+div#contenedormodal p {
+    text-align: left;
+    font-size: 14px;
+    width: 90%;
+}
+
+h3.title_int {
+    font-size: 13px !important;
+    font-weight: bold;
+    color: #5f5f5f;
+    border-bottom: solid 1px #00377b;
+    width: 90% !important;
+    padding-bottom: 10px;
+}
+
+div#contenedormodal span {
+    text-align: left;
+    float: left;
+    margin-top: -15px;
+    font-size: 12px;
+    color: #7b7b7b;
+}
+
+div#contenedormodal h2 {
+    font-family: 'Roboto', sans-serif !important;
+    color: #00377b;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+div#contenedormodal h4 {
+    float: left;
+    font-size: 15px;
+    margin-top: -13px;
+    margin-right: 20px;
+}
+
+.demo {
+    height: 475px;
+}
+
+.item {
+    height: 525px;
+}
+
+.lSSlideOuter {
+    height: 525px;
+}
+
+.lSSlideWrapper {
+    height: 520px;
+}
+
+h2.filtros {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 24px;
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+    margin-top: 70px;
+}
+
+div#contenedormodal {
+    text-align: center;
+}
+
+div#contenedormodal img {
+    width: 70%;
+    margin: 40px auto 0 auto;
+}
+
+.black,
+.silver,
+.purple,
+.grey,
+.spacegrey,
+.white,
+.gold {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 5px;
+}
+
+.silver {
+    background: #aaacaf
+}
+
+.gold {
+    background: #bdbe4a
+}
+
+.purple {
+    background: rgb(126, 22, 158)
+}
+
+.spacegrey,
+.sgrey {
+    background: #ccc
+}
+
+.rosegold {
+    background: violet
+}
+
+
+/*.demo {
+    height: 490px;
+}
+
+.item {
+    height: 490px;
+}
+
+.lSSlideWrapper {
+    height: 490px;
+}*/

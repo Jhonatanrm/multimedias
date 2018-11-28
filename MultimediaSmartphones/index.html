@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Celulares</title>
+
+
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+    <div class="container" style="margin-top: 20px">
+
+        <div class="row">
+            <div class="col m3 s12 l3"><select id="plan"></select></div>
+            <div class="col m3 s12 l3"><select id="canal"></select></div>
+            <div class="col m3 s12 l3"><select id="marca"></select></div>
+            <div class="input-field col s12 m3 l3">
+                <input type="text" id="autocomplete-input" class="autocomplete">
+                <label for="autocomplete-input">Buscar Smartphone</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="destacados">
+
+                <h2>Smartphones Destacados</h2>
+
+                <div class="demo">
+                    <div class="item">
+                        <ul id="content-slider" class="content-slider">
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="row" id="respuesta">
+            <div class="col s12 m12 l12">
+                <div id="paginas">
+
+                </div>
+                <div class="clearfix"></div>
+                <ul class="pagination">
+                </ul>
+            </div>
+        </div>
+        <div id="modal1" class="modal">
+            <div class="modal-content" id="contenedormodal">
+
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>

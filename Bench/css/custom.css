@@ -1,0 +1,59 @@
+th {text-align: center}
+td {
+    border-right: solid 1px #ccc;
+    font-size: 59%;
+    color: #000;
+}
+
+div#popocontenedor{width: 90% !important;}
+
+.iconos {
+    margin-top: 70px;
+    height: 730px;
+    background: #0f357f;
+    padding: 0px;
+    width: 50px;
+}
+
+table#tablita td {
+    border: none !important;
+}
+
+tr {
+    height: 70px;
+}
+
+td, th {
+    padding: 7px 5px !important;
+}
+
+td img {
+    width: 20px;
+    margin-right: 10px
+}
+
+.first {
+    background: #10357f; 
+    width: 30px; 
+    color: #fff;
+    text-align: center
+}
+
+.material-icons {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 750px) {
+
+  .iconos {height: 525px;}
+  
+  .carousel.carousel-slider{height: 800px !important;}
+tr {
+    height: 50px !important;
+}
+}
+@media only screen and (min-width: 800px) {
+    .carousel-item{
+        transform: none;
+    }
+}

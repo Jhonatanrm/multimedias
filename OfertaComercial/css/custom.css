@@ -1,0 +1,242 @@
+body{overflow-x: hidden !important}
+
+th {width: 120px !important;}
+td {width: 120px !important;}
+
+div#Empresa p label input {
+    display: inline-block;
+    text-align: center;
+}
+
+button.nuevo {
+    width: 100%;
+    padding: 10px;
+    background: #00347c;
+    color: #fff;
+    margin-top: 10px
+}
+
+div#Empresa p span {
+    display: block;
+    width: 100%;
+    line-height: 18px;
+    text-align: center;
+}
+
+div#Empresa p {
+    width: 35%;
+    float: left;
+    margin: 10px;
+    height: 100px;
+}
+
+div#Tecnologia p label input {
+    display: inline-block;
+    text-align: center;
+}
+
+div#Tecnologia p span {
+    display: block;
+    width: 100%;
+    line-height: 18px;
+    text-align: center;
+    font-size: 13px;
+}
+
+div#Tecnologia p {
+    width: 19%;
+    float: left;
+    margin: 10px;
+    height: 90px;
+}
+
+div#Tipo p label input {
+    display: inline-block;
+    text-align: center;
+}
+
+div#Tipo p span {
+    display: block;
+    width: 100%;
+    line-height: 18px;
+    text-align: center;
+    font-size: 13px;
+}
+
+div#Tipo p {
+    width: 12%;
+    float: left;
+    margin: 10px;
+    height: 90px;
+}
+
+div#Empresa p label span:before {
+    content: url("../img/empresa.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+}
+
+div#Tecnologia p label span:before {
+    content: url("../img/wifi.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+div#Tipo p label span.Esencial:before {
+    content: url("../img/esencial.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+div#Tipo p label span.Esencial.Plus:before {
+    content: url("../img/esencialplus.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+div#Tipo p label span.One:before {
+    content: url("../img/oneplus.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+div#Tipo p label span.One.Elite:before {
+    content: url("../img/oneelite.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+div#Tipo p label span.TO+BA:before {
+    content: url("../img/ideal.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+div#Tipo p label span.Ideal:before {
+    content: url("../img/ideal.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+div#Tipo p label span:before {
+    content: url("../img/individual.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+div#Tipo p label span.Ideal.Plus:before {
+    content: url("../img/idealplus.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+div#Tipo p label span.Internet:before {
+    content: url("../img/individual.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+div#Tipo p label span.Telefonia:before {
+    content: url("../img/individual.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+}
+
+label {
+    text-align: center
+}
+
+[type="radio"]+span:after {
+    content: none !important;
+}
+
+div#Categoria p label span {
+    color: #00347c;
+    width: 100%;
+}
+
+div#Categoria p {
+    width: 33%;
+    float: left;
+    text-align: center;
+    background: #fff;
+    border: solid 1px #00347c;
+}
+
+[type="radio"]:checked+span {
+    color: #00377b
+}
+
+[type="radio"].category:checked+span {
+    background: #00347c;
+    color: #fff !important;
+}
+
+[type="radio"].Empresa:checked+span {
+    color: #00377b;
+    width: 100% !important;
+    height: 100% !important;
+    font-weight: bold !important;
+    border-bottom: solid 2px !important;
+}
+
+[type="radio"].Tecnologia:checked+span {
+    color: #00377b;
+    width: 100% !important;
+    height: 100% !important;
+    font-weight: bold !important;
+    border-bottom: solid 2px !important;
+}
+
+div#Tipo [type="radio"]:checked+span {
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    border-bottom: solid 2px;
+}
+
+@media (max-width: 600px) {
+    div#Empresa p label span:before {
+        content: url("../img/empresam.png");
+    }
+    div#Tecnologia p label span:before {
+        content: url("../img/wifim.png");
+    }
+    .emp_tecno {
+        height: 80px;
+    }
+    div#Empresa p {
+        height: 80px;
+        width: 33%;
+    }
+    div#Tecnologia p {
+        height: 80px;
+    }
+    div#Tipo p {
+        width: 18%;
+    }
+    body{overflow-x: hidden !important}
+}

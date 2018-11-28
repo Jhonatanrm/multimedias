@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oferta Comercial Hogares</title>
+
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row selecciones">
+
+            <h3>Cotiza tus planes</h3>
+
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div id="Empresa"></div>
+                </div>
+                <div class="col s6 m4 l4">
+                    <div id="Plan"></div>
+                </div>
+                <div class="col s6 m4 l4">
+                    <div id="Tecnologia"></div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <select id="Linea"></select>
+                </div>
+                <div class="col s12 m4 l4">
+                    <select id="Oferta"></select>
+                </div>
+                <div class="col s12 m4 l4">
+                    <select id="Estrato"></select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <select id="Permanencia">
+                        <option>Aceptas Permanencia</option>
+                        <option value="1">Si</option>
+                        <option value="0">No</option>
+                    </select>
+                </div>
+                <div class="col s12 m4 l4">
+                    <select id="mercado">
+                        <option selected="selected">Seleccione mercado</option>
+                        <option value="retador">Retador</option>
+                        <option value="incumbente">Incumbente</option>
+                    </select>
+                </div>
+                <div class="col s12 m4 l4">
+                    <button class="btn waves-effect waves-light" onclick="acumulado()">Agregar</button>
+                    <button class="btn waves-effect waves-light" id="limpiar">Limpiar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row selecciones">
+            <h3>¿Deseas agregar algún producto?</h3>
+            <div class="col s6 m5 l5">
+                <select id="TipoServicio"></select>
+            </div>
+            <div class="col s6 m5 l5">
+                <select id="Servicio"></select>
+            </div>
+            <div class="col s12 m3 l2">
+                <button class="btn waves-effect waves-light" onclick="acumuladoServicio()">Agregar Servicio</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row valores">
+            <div class="col s12 l12 m12">
+                <div class="responsive-table">
+                    <table id="cotiza" class="striped">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Paquetes TigoUne</strong>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <i class="material-icons">router</i> Decodificadores</td>
+                                <td>
+                                    <i class="material-icons">attach_money</i> Precio Mensual</td>
+                                <td>
+                                    <i class="material-icons">attach_money</i> Valor Con Descuento:</td>
+                                <td>
+                                    <i class="material-icons">stars</i> Descuento:</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table id="TablaResultado" class="striped">
+                        <tbody></tbody>
+                    </table>
+                    <table id="cotiza" class="striped">
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <i class="material-icons">attach_money</i> Total Precio:</td>
+                                <td>
+                                    <i class="material-icons">attach_money</i> Total Con Descuento:</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table id="TablaResultado2" class="striped">
+                        <tbody></tbody>
+                    </table>
+
+                    <table id="cotiza" class="striped">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Servicios Adicionales</strong>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td>
+                                    <i class="material-icons">dashboard</i> Servicio Adicional:</td>
+                                <td>
+                                    <i class="material-icons">attach_money</i> Valor Mensual</td>
+                                <td>
+                                    <i class="material-icons">attach_money</i> Valor Con Descuento</td>
+                                <td>
+                                    <i class="material-icons">stars</i> Descuento:</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table id="TablaServicio" class="striped">
+
+                        <tbody></tbody>
+                    </table>
+                    <table id="TablaResultadoServicio" style="background: #f8f8f8;">
+                        <tbody></tbody>
+                    </table>
+                    <table id="Tablatotal" style="background: #f8f8f8;">
+                        <tbody></tbody>
+                    </table>
+                    <table id="TablaInstalacion" style="background: #f8f8f8;">
+                        <tbody></tbody>
+                    </table>
+                    <table id="TablaConexion" style="background: #f8f8f8;">
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
