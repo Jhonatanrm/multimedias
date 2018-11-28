@@ -1,0 +1,524 @@
+table.centered th img {
+    width: 25px;
+    margin-bottom: -7px;
+}
+
+a.tooltipped p {
+    color: #00367c;
+    font-size: 13px;
+    line-height: 14px;
+}
+a.tooltipped {
+    background: #ffffff;
+    text-align: center !important;
+    color: #fff;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    border: solid 2px #003486ab;
+    height: 134px;
+}
+
+
+
+a.tooltipped img{
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 29px;
+    color: #003486;
+}
+
+h3 {
+    text-align: center;
+    border-bottom: solid 2px;
+    padding-bottom: 12px;
+    color: #003581;
+}
+
+a.tooltipped  span{
+    margin: 0 auto;
+}
+
+button {
+    background: #003581;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+}
+
+div#Plan p {
+    width: 50px;
+    float: left;
+    text-align: center;
+    background: #fff;
+    margin: 6px;
+    height: 50px;
+}
+
+tr {border-bottom: none !important}
+
+td, th {
+    width: 20%;
+    text-align: center;
+}
+
+td strong {
+    color: #003581;
+}
+
+td td{width: 50% !important;}
+
+
+
+div#Plan p label span.Bronze:before {
+    background-image: url("../img/bronze.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.Silver:before {
+    background-image: url("../img/silver.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.Gold:before {
+    background-image: url("../img/gold.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.Black:before {
+    background-image: url("../img/black.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.Ideal:before {
+    background-image: url("../img/Ideal.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.Ideal.Plus:before {
+    background-image: url("../img/Idealplus.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.ONE.ELITE:before {
+    background-image: url("../img/ONE-ELITE.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.ONE.PLUS:before {
+    background-image: url("../img/ONE-PLUS.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.ONE.PLUS.DVR:before {
+    background-image: url("../img/ONE-PLUS-DVR.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.Esencial:before {
+    background-image: url("../img/Esencial.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.EsencialPlus:before {
+    background-image: url("../img/Esencialplus.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.IdealPlus:before {
+    background-image: url("../img/Idealplus.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.TVBasica:before {
+    background-image: url("../img/TV-BASICA.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.TVBasicaMixta:before {
+    background-image: url("../img/TV-BASICA.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.Platino:before {
+    background-image: url("../img/TV-BASICA.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.ONE:before {
+    background-image: url("../img/ONE.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.ONEELITE:before {
+    background-image: url("../img/ONE-ELITE.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.ONEPLUS:before {
+    background-image: url("../img/ONE-PLUS.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.ONEPLUSDVR:before {
+    background-image: url("../img/ONE-PLUS-DVR.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.TigoTVSatelitalBásico:before {
+    background-image: url("../img/TV-SATELITAL-BASICO.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.TigoTVSatelitalAvanzado:before {
+    background-image: url("../img/TV-SATELITAL-AVANZADO.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Plan p label span.TigoTVSatelitalBasico:before {
+    background-image: url("../img/TV-SATELITAL-BASICO.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+
+div#Tecnologia p {
+    width: 50px;
+    float: left;
+    text-align: center;
+    background: #fff;
+    margin: 6px;
+}
+
+div#Tecnologia p label span {border: none}
+
+div#Tecnologia p label {
+    color: transparent;
+}
+div#Tecnologia p label span {
+    border: none;
+}
+
+
+div#Plan p label span {border: none}
+
+div#Plan p label {
+    color: transparent;
+}
+div#Plan p label span {
+    border: none;
+}
+
+div#Tecnologia p label span.HFC:before {
+    background-image: url("../img/HFC.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+.filtros {
+    border-bottom: solid 1px #003581; 
+    margin-bottom: 55px; 
+    margin-top: 40px
+}
+
+div#Tecnologia p label span.GPON:before {
+    background-image: url(../img/GPON.png);
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Tecnologia p label span.IPTVRedCo:before {
+    background-image: url("../img/IPTV.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+div#Tecnologia p label span.Satelital:before {
+    background-image: url("../img/SATELITAL.png");
+    text-align: center;
+    margin: 0 auto;
+    display: inherit;
+    width: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+
+td img {
+    width: 40px;
+}
+
+.SD img {
+    width: 90px;
+    height: 90px;
+}
+.SD {
+    width: 22%;
+    margin: 4px;
+    float: left;
+}
+
+.SD:last-child {
+    display: none
+}
+
+.HD:last-child {
+    display: none
+}
+
+
+
+.HD img {
+    width: 90px;
+    height: 90px;
+}
+.HD {
+    width: 22%;
+    margin: 4px;
+    float: left;
+}
+
+.catHD {
+    padding: 10px;
+}
+.catSD {
+    padding: 10px;
+    border-right: solid 1px;
+}
+
+@media only screen and (max-width: 900px) {
+    .filtros {height: 330px;}
+    .catSD {
+        padding: 10px;
+        border-right: none;
+        border-bottom: solid 1px
+    }
+    .SD {
+        width: 30%;
+        margin: 4px;
+        float: left;
+    }
+    .SD img {
+        width: 65px;
+        height: 65px;
+    }
+    .HD {
+        width: 22%;
+        margin: 4px;
+        float: left;
+    }
+    .HD img {
+        width: 65px;
+        height: 65px;
+    }
+    .tecnologia{
+        height: 90px;
+    }
+    .plan{
+        height: 90px;
+    }
+    a.tooltipped {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .SD {
+        width: 22%;
+        margin: 4px;
+        float: left;
+    }
+    .SD img {
+        width: 65px;
+        height: 65px;
+    }
+    .HD {
+        width: 22%;
+        margin: 4px;
+        float: left;
+    }
+    .HD img {
+        width: 65px;
+        height: 65px;
+    }
+}
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grilla de Canales</title>
+
+
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row filtros">
+            <div class="col s12 m3 l3 xl3">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">location_on</i>
+                    <input type="text" id="autocomplete-input" class="autocomplete">
+                    <label for="autocomplete-input">Digite Ciudad</label>
+                </div>
+            </div>
+            <div class="col s12 m4 l4 xl4 tecnologia">
+                <label>Seleccione Tecnologia</label>
+                <div id="Tecnologia"></div>
+            </div>
+            <div class="col s12 m5 l5 xl5 plan">
+                    <label>Seleccione Plan</label>
+                <div id="Plan"></div>
+            </div>
+            
+        </div>
+
+        <div class="row">
+                
+                        
+                <table class="centered">
+                        <thead>
+                          <tr>
+                              <th></th>
+                              <th><img src="img/GENERO.png"> Géneros</th>
+                              <th><img src="img/SD-V1.png"> Canales</th>
+                              <th><img src="img/HD-V2.png"> Canales</th>
+                              <th><img src="img/SD+HD.png"> Total</th>
+                          </tr>
+                          <tr id="totalizado"></tr>
+                        </thead>
+                        
+                        <tbody>
+                                
+                          
+                        </tbody>
+                      </table>
+                      <ul class="collapsible" id="canales"></ul>
+        </div>
+
+        <div class="row">
+            <h3>Paquetes Adicionales Premium</h3>
+            <table class="centered">
+                <thead>
+                    <tr>
+                        <th><img src="img/PREMUIM-HD.png"> <strong>Canales Premium</strong></th>
+                        <th><img src="img/paquete.png"> Paquetes</th>
+                        <th><img src="img/SD-V1.png"> Premium</th>
+                        <th><img src="img/HD-V2.png"> Premium</th>
+                        <th><img src="img/SD+HD.png"> Premium</th>
+                    </tr>
+                    <tr id="totalizadopremium"></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+                  
+            <ul class="collapsible" id="premium"></ul>
+            <div class="clearfix"></div>
+            <div style="text-align: center">
+                    <a href="https://www.tigounetrainers.com/grilla-canales-planes-antiguos/" target="_blank"><button>Comparar</button></a>
+                    <a href="https://www.tigounetrainers.com/grilla-canales-planes-antiguos/" target="_blank"><button>Planes Antiguos</button></a>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/main.js"></script>
+    
+    
+</body>
+</html>
