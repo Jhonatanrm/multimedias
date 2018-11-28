@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Recomendador de Ofertas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row campos">
+            <div class="input-field col s12 m4">
+                <select id="estrato" name="Est">
+                  <option value="" disabled selected>Selecciona tu estrato</option>
+                  <option value="10">Estrato_1</option>
+                  <option value="10">Estrato_2</option>
+                  <option value="15">Estrato_3</option>
+                  <option value="15">Estrato_4</option>
+                  <option value="20">Estrato_5</option>
+                  <option value="20">Estrato_6</option>
+                </select>
+                <label>Selecciona tu estrato socioeconomico</label>
+            </div>
+
+            <div class="input-field col s12 m4">
+                <select id="personas">
+                  <option value="" disabled selected>Numero de personas</option>
+                  <option value="10">1 a 2</option>
+                  <option value="15">3 - 5</option>
+                  <option value="20">6 o más</option>
+                </select>
+                <label>Número de personas que habitan el hogar</label>
+            </div>
+
+            <div class="input-field col s12 m4">
+                <select id="dispositivos">
+                  <option value="" disabled selected>Cantidad de dispositivos</option>
+                  <option value="10">1 a 3</option>
+                  <option value="15">4 a 6</option>
+                  <option value="20">7 o más</option>
+                </select>
+                <label>Cantidad de dispositivos que se conectan</label>
+            </div>
+
+            <div class="input-field col s12 m6">
+                <select id="tv">
+                  <option value="" disabled selected>Cantidad de TV</option>
+                  <option value="10">1</option>
+                  <option value="15">2 a 3</option>
+                  <option value="20">4 a 6</option>
+                </select>
+                <label>Cantidad de TV que requieren servicio</label>
+            </div>
+
+            <div class="input-field col s12 m6">
+                <select id="llamadas">
+                  <option value="" disabled selected>Tipo de llamadas</option>
+                  <option value="10">Entre fijos</option>
+                  <option value="15">Móvil - Móvil</option>
+                  <option value="20">Fijo - Móvil</option>
+                </select>
+                <label>Tipo de llamadas que se generan en el hogar</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <table>
+                <thead>
+                    <tr>
+                        <th><img src="img/plan.png"> Plan</th>
+                        <th><img src="img/SD.png"> Canales</th>
+                        <th><img src="img/HD.png"> Canales</th>
+                        <th><img src="img/audio.png"> Canales</th>
+                        <th><img src="img/internet.png"> Internet</th>
+                        <th><img src="img/plan.png"> Telefonia</th>
+                        <th><img src="img/plan.png"> Precio</th>
+                    </tr>
+                </thead>
+                <tbody id="Planes"></tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <!--Import jQuery before materialize.js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>

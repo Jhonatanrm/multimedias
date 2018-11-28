@@ -1,0 +1,8 @@
+.collapsible-header tr {
+    border-bottom: none;
+}
+
+th img {
+    width: 23px;
+    margin-bottom: -5px;
+}
